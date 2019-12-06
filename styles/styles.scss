@@ -35,7 +35,7 @@ $logo-font: 'Gupter', sans-serif;
     position: relative;
     background-size: 100% 100%;
     animation: fadeIn ease 1s;
-    
+    filter: opacity(0.8);
 }
 
 #container > .background3 {
@@ -57,7 +57,7 @@ $logo-font: 'Gupter', sans-serif;
     position: relative;
     background-size: 100% 100%;
     animation: fadeIn ease 1s;
-    
+    filter: opacity(0.8);
 }
 
 .logo-sign {
@@ -68,18 +68,21 @@ $logo-font: 'Gupter', sans-serif;
     font-family: 'Gupter';
     .top {
         
-        font-size: 10em;
+        font-size: 5em;
         text-shadow: 4px 4px 4px #aaa;
         margin-top: 200px;
+        font-family: 'Yellowtail', sans-serif;
     }
 
     .bottom {
         font-size: 5em;
-        text-shadow: 4px 4px 4px #aaa;
+        text-shadow: 4px 4px 4px #fff;
     }
 
 
 }
+
+
 
 .nav-menu {
     display: flex;
@@ -108,3 +111,47 @@ $logo-font: 'Gupter', sans-serif;
         }
     }
 }
+
+.contact-title {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 3em;
+}
+
+.contact-content {
+    display: flex;
+    justify-content: space-around;
+
+    .right, .left {
+        
+        font-family: 'Roboto', sans-serif;
+        font-weight: 900;
+        text-shadow: 4px 4px 4px #fff;
+    }
+
+    .right input {
+        width: 100%;
+        opacity: 0.6;
+        border-radius: 4px;
+        height: 30px;
+        margin: 10px 0px;
+    }
+
+    .right textarea {
+        width: 100%;
+        opacity: 0.6;
+        border-radius: 4px;
+        margin: 10px 0px;
+    }
+
+    ::placeholder {
+        color: black;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 900;
+        opacity: 1;
+        font-size: 15px;
+    }
+}
+
+
